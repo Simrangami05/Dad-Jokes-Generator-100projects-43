@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  min-height: 100vh;
+  background: linear-gradient(rgb(142, 0, 251), rgb(3, 61, 249));
+}
+.container {
+  text-align: center;
+  /* border-radius: 3px; */
+  background: linear-gradient(rgb(255, 77, 0), rgb(156, 0, 246));
+  width: 70%;
+  padding: 20px;
+  color: darkslateblue;
+}
+.heading {
+  font-size: 35px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px black;
+}
+.jokes {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+}
+.button {
+  width: 35%;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgb(197, 89, 12);
+  color: darkslateblue;
+  border-color: rgba(255, 255, 255, 0.6);
+  /* border-radius: 3px; */
+  padding: 10px;
+}
+.button:hover{
+  box-shadow: 0 4px 4px rgba(0,0,0,.3);
+  transition: all 300ms ease;
+  background-color: rgb(183, 82, 11);
+}
